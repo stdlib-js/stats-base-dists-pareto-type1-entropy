@@ -32,10 +32,14 @@ The [differential entropy][entropy] (in [nats][nats]) for a [Pareto (Type I)][pa
 
 <!-- <equation class="equation" label="eq:pareto_type1_entropy" align="center" raw="h\left( X \right) =  \ln\left(\left({\frac{\beta}{\alpha}}\right) \, e^{1+{\tfrac{1}{\alpha }}}\right)" alt="Differential entropy for a Pareto (Type I) distribution."> -->
 
-<div class="equation" align="center" data-raw-text="h\left( X \right) =  \ln\left(\left({\frac{\beta}{\alpha}}\right) \, e^{1+{\tfrac{1}{\alpha }}}\right)" data-equation="eq:pareto_type1_entropy">
+```math
+h\left( X \right) =  \ln\left(\left({\frac{\beta}{\alpha}}\right) \, e^{1+{\tfrac{1}{\alpha }}}\right)
+```
+
+<!-- <div class="equation" align="center" data-raw-text="h\left( X \right) =  \ln\left(\left({\frac{\beta}{\alpha}}\right) \, e^{1+{\tfrac{1}{\alpha }}}\right)" data-equation="eq:pareto_type1_entropy">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@591cf9d5c3a0cd3c1ceec961e5c49d73a68374cb/lib/node_modules/@stdlib/stats/base/dists/pareto-type1/entropy/docs/img/equation_pareto_type1_entropy.svg" alt="Differential entropy for a Pareto (Type I) distribution.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -229,7 +233,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
